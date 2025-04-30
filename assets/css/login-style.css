@@ -65,3 +65,12 @@ ul.custom-ul-li li::before {
   background-color: #D9D9D9;   /* warna bullet */
   border-radius: 50%; 
 }
+
+@media (min-width: 992px) {
+  footer.custom-fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+}
