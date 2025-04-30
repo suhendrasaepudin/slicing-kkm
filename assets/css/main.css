@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+  background-color: #ffffff !important;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-primary {
+  background-color: #37396B !important; /* ganti warna latar */
+  border-color: #37396B !important;     /* ganti warna border */
+  color: #ffffff !important;            /* warna teks */
+}
+
+.btn-primary:hover {
+  background-color: #313254 !important;
+  border-color: #37396B !important;
+}
+
+.btn-success {
+  background-color: #00A616 !important; /* ganti warna latar */
+  border-color: #00A616 !important;     /* ganti warna border */
+  color: #ffffff !important;            /* warna teks */
+}
+
+.btn-success:hover {
+  background-color: #039116 !important;
+  border-color: #039116 !important;
+}
+
+.btn-danger {
+  background-color: #FF5656 !important; /* ganti warna latar */
+  border-color: #FF5656 !important;     /* ganti warna border */
+  color: #ffffff !important;            /* warna teks */
+}
+
+.btn-danger:hover {
+  background-color: #FF5656 !important;
+  border-color: #FF5656 !important;
+}
+
+.btn-blue {
+  background-color: #353FEA !important; /* ganti warna latar */
+  border-color: #353FEA !important;     /* ganti warna border */
+  color: #ffffff !important;            /* warna teks */
+}
+
+.btn-blue:hover {
+  background-color: #2d35d2 !important;
+  border-color: #2d35d2 !important;
+}
+
+.btn-transparent {
+  border: 1px solid #646464;
+}
+
+.text-blue{
+  color: #4300A6 !important;
+}
+
+.bg-blue {
+  background-color: #353FEA;
+}
+
+.border-radius-custom {
+  border-radius: 15px !important;
+}
+
+.custom-border {
+  border-width: 1.5px !important;
+  border-color: #000 !important; /* opsional: hitam */
+}
+
+.bg-danger {
+  background-color: #FF5656 !important; /* ganti warna latar */
+  border-color: #FF5656 !important;     /* ganti warna border */
+  color: #ffffff !important;            /* warna teks */
+}
+
+.bg-light {
+  background-color: #F4F4F4 !important;
+}
+
+.bg-primary {
+  background-color: #37396B !important; /* Ganti dengan warna yang kamu mau */
+}
+
+.form-select.custom-arrow-white {
+  appearance: none; /* Hilangkan panah default */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  background-color: #343a40; /* contoh background gelap */
+  color: white;
+
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'%3E%3Cpath d='M1.5 5.5l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 1rem;
+  padding-right: 2rem; /* beri ruang untuk icon */
+}
+
+.row.gx-custom > [class^="col"] {
+  padding-right: 5rem;
+}
+
+.alert.alert-warning {
+  background-color: #FFD6B0 !important;
+  color: #000000 !important;
+  font-weight: 500 !important;
+}
+
+.form-custom-border {
+  border-width: 1.5px !important;
+  border-color: #000 !important; /* opsional: hitam */
+}
+
+.fw-medium {
+  font-weight: 500 !important;
+}
+
+.bg-success {
+  background-color: #00A616 !important;
+  color: #ffffff !important;
+}
+
+.bg-success-secondary {
+  background-color: #E3F9E6 !important;
+}
+
+.bg-red {
+  background-color: #A61E00 !important;
+  color: #ffffff !important;
+}
+
+.bg-orange {
+  background-color: #E88814 !important;
+  color: #ffff !important;
+}
+
+.text-orange {
+  color: #E88814 !important;
+}
+
+.bg-red-secondary {
+  background-color: #F9E4E3 !important;
+}
+
+.bg-muted {
+  background-color: #F5F5F5 !important;
+}
+
+.bg-form-secondary {
+  background-color: #D9D9D9 !important;
+}
+
+.dashed-line {
+  border: none;
+  border-top: 2px solid transparent;
+  border-image: repeating-linear-gradient(to right, #000 0 20px, transparent 20px 30px);
+  border-image-slice: 1;
+  margin: 2rem 0;
+}
+
+/* Kecilkan font dalam Dropify */
+.dropify-wrapper .dropify-message span.file-icon p {
+  font-size: 30px; /* Atur sesuai selera, misalnya 12px, 14px, dll */
+}
+
+.dropify-wrapper {
+  border-radius: 15px !important;
+  background-color: #F5F5F5 !important;
+}
+
+.dropify-wrapper .dropify-loader {
+  background-color: #bababa !important;
+}
+
+ /* Custom background header */
+ .custom-table thead {
+  background-color: #FFAE50; /* Dark grey */
+  color: #000000;
+}
+
+/* Custom border color */
+.custom-table, 
+.custom-table th, 
+.custom-table td {
+  border: 1px solid #FFFFFF; /* Bootstrap secondary border color */
+}
+
+/* Optional: Ganti warna row/sel lainnya */
+.custom-table tbody tr {
+  background-color: #EDEDED; /* Light gray hover effect */
+}
+.custom-table tbody tr:hover {
+  background-color: #f8f9fa; /* Light gray hover effect */
+}
+
+.custom-table td,
+  .custom-table th {
+    padding: 1.25rem; /* Ubah nilai sesuai kebutuhan */
+    vertical-align: middle; /* Supaya isi sel rata tengah secara vertikal */
+  }
